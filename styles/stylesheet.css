@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "Intro";
+    src: url(../fonts/IntroScriptR-H2Base.otf) format("opentype");
+}
+@font-face {
+    font-family: "Graphie-Book";
+    src: url(../fonts/GraphieBook.otf) format("opentype");
+}
+@font-face {
+    font-family: "Graphie-ExtraLight";
+    src: url(../fonts/GraphieExtraLight.otf) format("opentype");
+}
+@font-face {
+    font-family: "Graphie-Bold";
+    src: url(../fonts/GraphieBold.otf) format("opentype");
+}
+body {
+    background-color: #F3F0E8;
+}
+h4 {
+    font-family: "graphie-book";
+    font-size: 17pt;
+    color: #613D1F; 
+}
+h3 {
+    flex-grow: 1;
+}
+h1 {
+    text-align: center;
+}
+.header-banner p {
+    margin: 0;
+}
+.header-banner {
+    background-color: #F3F0E8; 
+    width: 100;
+    font-family: "graphie-extralight";
+    font-size: 27pt;
+    color: #613D1F;
+    margin: 0;
+}
+.menu-banner {
+    background-color: #33809A;
+    color: #F3F0E8;
+    text-align: center;
+    align-items: center;
+    font-family: "graphie-extralight";
+    font-size: 17pt;
+}
+.flex-container {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+.left-flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.col-4 {
+    flex-basis: 33.333%;
+    padding: 0 6px;
+}
+.menu-sections {
+    text-align: center;
+    align-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.menu-items {
+    flex-basis: 25%;
+}
+.menu-items-2 {
+    
+}
+.who-we-are {
+    flex-basis: 50%;
+    text-align: center;
+}
+.hero-image {
+    background-image: url(../images/food-coffee-2.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    max-height: 600px;
+}
+.footer {
+    width: 100%; 
+    background-color: #E2B8B3; 
+    text-align: center;
+}
+.welcome {
+    font-family: "Intro";
+    color: #F3F0E8;
+    font-size: 200pt;
+}
+.book {
+    font-family: "graphie-book";
+    font-size: 25pt;
+    color: #33809A;
+    padding: 40px;
+}
+.body-text {
+    font-family: "graphie-extralight";
+    color: #613D1F;
+    font-size: 16px;
+    line-height: 20pt;
+}
+.bold-footer {
+    font-family: "graphie-bold";
+    font-size: 25pt;
+    color:#F3F0E8;
+    padding: 5px;
+}
+.section-padding {
+    padding-bottom: 45px;
+}
+@media (max-width: 400px) {
+    .left-flex-container {
+        font-size: 35px;
+    }
+    .welcome {
+        font-size: 115px;
+    }
+    .menu-banner {
+        font-size: 14px;
+    }
+    .flex-container {
+        flex-wrap: wrap;
+    }
+    .body-text {
+        font-size: 14px;
+    }
+    h4 {
+        font-size: 19px;
+    }
+    .col {
+        flex-wrap: wrap;
+    }
+
+}
